@@ -10,5 +10,5 @@
   brctl delbr $UBRG1
   brctl delbr $UBRG2
 
-#  rm -rf $TMP
-#  rm -rf $HOMEDIR/domains/$SERVERNAME
+  rm -rf $TMP
+  rm -rf $HOMEDIR/domains/$SERVERNAME

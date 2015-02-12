@@ -5,14 +5,14 @@
 # TODO: find a way to detect traffic generator's ip address (instead of setting it in config file)
 # by settimng the mac address in VIF file. So given mac, we might be able to find ip address
 
-set -ex # set -ex
+set -e
 
 DIR=$( cd "$( dirname '${BASH_SOURCE[0]}' )" && pwd )
 
 # apt-get install bridge-utils expect-dev
 
 source $DIR/init.sh
-# source $DIR/create-unikernel.sh
+source $DIR/create-unikernel.sh
 
 function on_exit {
   set +e

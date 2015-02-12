@@ -3,7 +3,7 @@
 DIST="trusty" # ubuntu 14.04
 
 # TODO: remove comment for the release
-# rm -rf $HOMEDIR/domains/$SERVERNAME
+rm -rf $HOMEDIR/domains/$SERVERNAME
 
 if [ ! -d $HOMEDIR/domains/$SERVERNAME ]; then
   mkdir $HOMEDIR/domains/$SERVERNAME

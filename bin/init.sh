@@ -34,7 +34,7 @@ UINT1="tap1"
 UINT2="tap2"
 
 # interfaces to listen to
-INTMON1=tgen
+INTMON1=$GENNAME
 INTMON2=$UINT1
 
 RUNTIME=15 # runtime for each pktgen script
