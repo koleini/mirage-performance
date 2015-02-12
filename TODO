@@ -4,3 +4,5 @@
 - ouput format to discuss
 - latency measurement to discuss
 - tcpip library performance check
+- create-pktgen-conf.sh requires flexibility in traffic configuration
+
