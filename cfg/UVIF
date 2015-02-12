@@ -1,0 +1,1 @@
+vif = [ 'bridge=@BRG2@,vifname=@INT1@','bridge=@BRG1@,vifname=@INT2@' ]

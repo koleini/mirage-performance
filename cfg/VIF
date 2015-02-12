@@ -1,0 +1,1 @@
+vif = [ 'ip=@GENIP@,bridge=@GENBR@,vifname=@GENNAME@','mac=00:16:3E:46:BB:9C,bridge=@XENBR@,vifname=@CONF@' ]

@@ -1,0 +1,5 @@
+unbuffer bmon -p eth0,lo -o 'format:fmt=Element: $(element:name)\nBytes Rate: $(attr:rxrate:bytes)/$(attr:txrate:bytes)\nPackets Rate: $(attr:rxrate:packets)/$(attr:txrate:packets)\n' > traffic.txt
+
+
+unbuffer bmon -p eth0,lo -o 'format:fmt=$(element:name): Packets Rate: $(attr:rxrate:packets)/$(attr:txrate:packets)\n' > traffic.txt
+
