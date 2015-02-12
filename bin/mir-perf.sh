@@ -9,7 +9,8 @@ set -e
 
 DIR=$( cd "$( dirname '${BASH_SOURCE[0]}' )" && pwd )
 
-# apt-get install bridge-utils expect-dev
+# install required packages
+apt-get install bridge-utils expect-dev
 
 source $DIR/init.sh
 source $DIR/create-unikernel.sh
