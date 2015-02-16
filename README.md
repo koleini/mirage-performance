@@ -1,6 +1,6 @@
 # mirage-perf
 
-A mirage network performance test script (http://github.com/avsm/mirage)
+A mirage network performance test script (http://github.com/mirage/mirage)
 
 Test environment
 ----------------
